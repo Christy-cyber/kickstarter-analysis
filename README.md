@@ -17,6 +17,9 @@ With respect to outcomes based on launch date, it was found that May, especially
 ![Launch Date Outcomes--Module 1--Excel](https://user-images.githubusercontent.com/95387273/146690544-424b2860-d0e3-45bc-97fb-fb26bcb4052a.png)
 
 
-Descriptive statistics showed that mean goal and mean pledged for both successful and failed US kickstarters were much higher (around the 3rd quartile) than the median values for both. Median values approximated twice that of the lower quartile.  Standard deviation values were also higher than the mean for goal amounts and amounts pledged for successful and failed US kickstarters, indicating that a few large values, or outliers in both categories, were skewing the distributions for both.
+Descriptive statistics showed that mean goal and mean pledged for both successful and failed US kickstarters were much higher (around the upper quartile) than the median values for both. Median values approximated twice that of the lower quartile.  Standard deviation values were also higher than the mean for goal amounts and amounts pledged for successful and failed US kickstarters, indicating that a few large values, or outliers in both categories, were skewing the distributions for both.
 
-In summary, focus on theater productions, music, and film & video across all countries, and technology should also remain a consideration.  In Great Britain, theater (plays) campaigns do especially well with the target fundraising goal for musicals at 4,000 GBP or less.  Starting a campaign in May or June would produce the best outcomes.
+![image](https://user-images.githubusercontent.com/95387273/146691595-45514b44-1dbe-4711-b288-77c55ce66b2d.png)
+
+
+In summary, focus on theater productions, music, and film & video across all countries, and technology should also remain a consideration.  In Great Britain, theater (plays) campaigns do especially well with the target fundraising goal for musicals at 4,000 GBP or less.  Starting a campaign in May or June would produce the best outcomes.  A few outliers are skewing distributions for mean goal and mean pledged amounts for successful and failed campaigns in the US. Instead, focus on median values and note that failed campaigns have higher fundraising goals (median = $5,000.00) than successful ones (median = $3,000).
