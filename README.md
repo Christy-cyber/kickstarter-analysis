@@ -7,30 +7,42 @@ An initial analysis of data showed that productions in film and video, music, an
 ### Purpose
 
 The purpose of these analyses were to uncover trends to address:
-1) Campaign outcomes based on launch date
-2) Campaign outcomes based on funding goals
+1) Theater campaign outcomes based on launch date
+2) Campaign outcomes of plays based on funding goals
 
 ## Analysis and Challenges
 
 ### Analysis of Outcomes Based on Launch Date
 
-A pivot table was created in MS Excel in order to plot "Theater" outcomes against launch date, thereby showing the number of successful, failed, and canceled campaigns based on the month in which the campaign began.  All countries were considred in the analysis.  The figure shows
+A pivot table was created in MS Excel in order to plot "Theater" outcomes against "Launch Date," thereby showing the number of successful, failed, and canceled campaigns based on the month in which the campaign launched across multiple years.  All countries were considred in the analysis.  The following figure shows that the most successful theater campaigns were launched in May (111 campaigns) and June (100 campaigns).  Beginning in May, the number of successful campaigns declines until December when the number of successful campaigns (37) approximates the number of failed campaigns (35).  The  number of failed campaigns tends to remain constant throughout the year, ranging from 31 to 50 in any given month.  However, the percentage of failed theater campaigns was less in the summer months compared to those that began in the fall (September through December), even though percentages were not calculated or shown in the figure.  The number of canceled theater campaigns remained constant across all months and ranged from 1 to 7 (mode = 3).
 
+#### Challenges and Difficulties
+
+While there were no particular challenges or difficulties with this data set, one should recognize that all types of theater production were included in the analyses.  When producing the figure,
+
+![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/95387273/146973628-b7027bc4-b502-485e-b18b-9599c3eac25a.png)
 
 
 ### Analysis of Outcomes Based on Goals
 
-### Challenges and Difficulties Encountered
+A table was created in MS Excel using the COUNTIFS() function in order to investigate the number of successful, failed, and canceled plays based on 12 fundraising goal ranges.  Based on these findings, the percentage of successful, failed, and canceled plays was determined.  The number of "live" plays was not included in the data set.
+
+![Outcomes_vs_Goals](https://user-images.githubusercontent.com/95387273/146973890-387b7de8-f9f2-47a5-a81f-799135405017.png)
+
+
+#### Challenges and Difficulties Encountered
 
 ## Results
 
-- What are two conclusions you can draw about the Outcomes based on Launch Date?
+### Conclusions regarding Outcomes based on Launch Date
 
-- What can you conclude about the Outcomes based on Goals?
+### Conclusions regarding Outcomes based on Goals
 
-- What are some limitations of this dataset?
+### Limitations of this dataset
 
-- What are some other possible tables and/or graphs that we could create?
+### Suggestions for additional tables and/or graphs
+
+I recommend plotting the percentage of successful, failed, and canceled theater campaigns against month.  Additionally, it would  be helpful to further investigate the outcomes of the number and percentage of plays (as a subcategory of "Theater") and how this subcategory performs based on launch date.  Comparisons can be made between the sub-category, "Plays," and its category, "Theater."
 
 Data were sorted by categories, subcategories, and launch date by country.  Descriptive statistics focusing on the mean and median for amounts pledged and goal amounts of successful and failed kickstarters in the US were performed.  A box and whisker plot shows the differences in mean and median values between successful and failed musicals in Great Britain.
 
