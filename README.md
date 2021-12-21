@@ -7,8 +7,8 @@ An initial analysis of data showed that productions in film and video, music, an
 ### Purpose
 
 The purpose of these analyses were to uncover trends to address:
-1) Theater campaign outcomes based on launch date
-2) Campaign outcomes of plays based on funding goals
+1) "Theater" campaign outcomes based on launch date
+2) Campaign outcomes of "Plays," a sub-category of "Theater," based on funding goals
 
 ## Analysis and Challenges
 
@@ -18,23 +18,27 @@ A pivot table was created in MS Excel in order to plot "Theater" outcomes agains
 
 #### Challenges and Difficulties
 
-While there were no particular challenges or difficulties with this data set, one should recognize that all types of theater production were included in the analyses.  When producing the figure,
+While there were no particular challenges or difficulties with this data set, one should recognize that all types of theater production were included in the analyses.  When producing the chart, though, I had difficulty figuing-out how to get the chart title to align at the top of the chart so as to not interfere with the graph space.  Eventually, I navigated to the "Design" tab, selected "Add Chart Element," selected "Chart Title," then selected "Above Chart." 
 
 ![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/95387273/146973628-b7027bc4-b502-485e-b18b-9599c3eac25a.png)
 
 
 ### Analysis of Outcomes Based on Goals
 
-A table was created in MS Excel using the COUNTIFS() function in order to investigate the number of successful, failed, and canceled plays based on 12 fundraising goal ranges.  Based on these findings, the percentage of successful, failed, and canceled plays was determined.  The number of "live" plays was not included in the data set.
+A table was created in MS Excel using the COUNTIFS() function in order to investigate the number of successful, failed, and canceled plays based on 12 fundraising goal ranges.  Based on these findings, the percentage of successful, failed, and canceled plays was determined.  The number of "live" plays was not included in the data set.  The highest percentage of successful plays had campaign goals that were less than $1,000.00 (76%) followed by those that had campaign goals from $1,000.00 to $4,999.00 (73%).  Campaign goals ranging from $35,000.00 to $39,000.00 and from $40,000.00 to $44,999.00 both produced a 67% success rate.  Beyond this funding goal, campaigns for plays failed at 100%.  There was a general trend showing that as funding goals increased, the percentage of successful plays decreased and the percentage of failed plays increased. 
 
 ![Outcomes_vs_Goals](https://user-images.githubusercontent.com/95387273/146973890-387b7de8-f9f2-47a5-a81f-799135405017.png)
 
 
 #### Challenges and Difficulties Encountered
 
+It was difficult to include the %-sign with the y-axis numbers in the "Outcomes Based on Goal" chart.  In the table, I initially calculated the percentage of successful, failed, and canceled plays in each fundraising goal by dividing each number value by the total number of projects in that row and then multiplying by 100. I thought that a "%" sign could be added to the original y-axis numbers in the chart by clicking on the y-axis tick mark label numbers and typing "%", but this did not work.   In order to produce the "%-sign" associated with the y-axis numbers, I edited the percent formula in the respective columns in the table to only divide each number value by the total number of projects and did not multiply by 100, which resulted in a proportion.  Once the proportion values in the percentage columns were calculated, I selected the cells in these columns and clicked on "%" along the Ribbon in "Number" in the "Home" tab.  This produced the "%-sign" with each number in the table.  Subsequently, when I created the chart, the "%-sign" was already included with the y-axis tick mark labels.
+
 ## Results
 
 ### Conclusions regarding Outcomes based on Launch Date
+
+
 
 ### Conclusions regarding Outcomes based on Goals
 
@@ -43,6 +47,10 @@ A table was created in MS Excel using the COUNTIFS() function in order to invest
 ### Suggestions for additional tables and/or graphs
 
 I recommend plotting the percentage of successful, failed, and canceled theater campaigns against month.  Additionally, it would  be helpful to further investigate the outcomes of the number and percentage of plays (as a subcategory of "Theater") and how this subcategory performs based on launch date.  Comparisons can be made between the sub-category, "Plays," and its category, "Theater."
+
+Further investigation is necessary into campaign outcomes based on funding goals for "Plays" with respect to the funding goal ranges between $35,000.00 to $39,999.00 and from $40,000.00 to $44,999.00.  These two data ranges produced unexpected results given that there was a higher percentage of successful plays.
+
+
 
 Data were sorted by categories, subcategories, and launch date by country.  Descriptive statistics focusing on the mean and median for amounts pledged and goal amounts of successful and failed kickstarters in the US were performed.  A box and whisker plot shows the differences in mean and median values between successful and failed musicals in Great Britain.
 
