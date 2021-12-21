@@ -1,6 +1,37 @@
-# An Analysis of Kickstarter Campaigns
-Performing analysis on kickstarter data to uncover trends
----
+# Kickstarting with Excel
+
+## Overview of Project
+
+An initial analysis of data showed that productions in film and video, music, and theater (especially "plays") had the highest outcomes for all categories considered.  Based on these findings and due to the fundraising success of our client's play, *Fever*, in such a short time, our client, Louise, requested more information regarding campaign outcomes based on launch date and funding goals.
+
+### Purpose
+
+The purpose of these analyses were to uncover trends to address:
+1) Campaign outcomes based on launch date
+2) Campaign outcomes based on funding goals
+
+## Analysis and Challenges
+
+### Analysis of Outcomes Based on Launch Date
+
+A pivot table was created in MS Excel in order to plot "Theater" outcomes against launch date, thereby showing the number of successful, failed, and canceled campaigns based on the month in which the campaign began.  All countries were considred in the analysis.  The figure shows
+
+
+
+### Analysis of Outcomes Based on Goals
+
+### Challenges and Difficulties Encountered
+
+## Results
+
+- What are two conclusions you can draw about the Outcomes based on Launch Date?
+
+- What can you conclude about the Outcomes based on Goals?
+
+- What are some limitations of this dataset?
+
+- What are some other possible tables and/or graphs that we could create?
+
 Data were sorted by categories, subcategories, and launch date by country.  Descriptive statistics focusing on the mean and median for amounts pledged and goal amounts of successful and failed kickstarters in the US were performed.  A box and whisker plot shows the differences in mean and median values between successful and failed musicals in Great Britain.
 
 Theater productions, music, and film & video were shown to do well across all countries, yet theater productions also showed a higher number of failed campaigns.  Additionally, theater productions (plays) were the most successful in Great Britain, even considering the smaller number of 604 starter campaigns for plays.  The average campaign goal for musicals was 4,000 GBP, with the upper quartile approximating 6,000 GBP and the median at 2,000 GBP.  Considering that the average pledge approximated 1,700 GBP, a campaign goal of 4,000 GBP or less would be recommended.
