@@ -38,23 +38,29 @@ It was difficult to include the %-sign with the y-axis numbers in the "Outcomes 
 
 ### Conclusions regarding Outcomes based on Launch Date
 
-
+- The best month to launch a successful theater campaign is in May, followed by June.
+- Theater campaigns should not be launched in December given that this month has the lowest number of successful campaigns that approximate the number of failed campaigns.
 
 ### Conclusions regarding Outcomes based on Goals
 
+- Focus on fundraising goals of less than $1000.00 in order to produce a successful play. Funding goals between $1000.00 and less than $5000.00 also have high percent success rates and should be considered.
+- Avoid fundraising goals for plays above $49,999.00 as it will most likly result in a failed campaign.
+
 ### Limitations of this dataset
+
+Consideration needs to be given to whether donations are being made by individuals, public agencies, or private corporations.  Even though average donation amounts can be calculated, this data set lacks infomation regarding specific funding sources.  This information would speak to how to market fundraising efforts and which potantial donors to target.
 
 ### Suggestions for additional tables and/or graphs
 
-I recommend plotting the percentage of successful, failed, and canceled theater campaigns against month.  Additionally, it would  be helpful to further investigate the outcomes of the number and percentage of plays (as a subcategory of "Theater") and how this subcategory performs based on launch date.  Comparisons can be made between the sub-category, "Plays," and its category, "Theater."
+I recommend plotting the percentage of successful, failed, and canceled theater campaigns against month.  It would  be helpful to further investigate the outcomes of the number and percentage of plays (as a subcategory of "Theater") and how this subcategory performs based on launch date.  Comparisons can be made between the sub-category, "Plays," and its category, "Theater."
+
+Additionally, look at the number of successful plays by country.  Having these data would help focus the location of where to market a play in addition to knowing which month to launch a campaign and funding goal to target.
 
 Further investigation is necessary into campaign outcomes based on funding goals for "Plays" with respect to the funding goal ranges between $35,000.00 to $39,999.00 and from $40,000.00 to $44,999.00.  These two data ranges produced unexpected results given that there was a higher percentage of successful plays.
 
+## Other General Findings of the Data Set
 
-
-Data were sorted by categories, subcategories, and launch date by country.  Descriptive statistics focusing on the mean and median for amounts pledged and goal amounts of successful and failed kickstarters in the US were performed.  A box and whisker plot shows the differences in mean and median values between successful and failed musicals in Great Britain.
-
-Theater productions, music, and film & video were shown to do well across all countries, yet theater productions also showed a higher number of failed campaigns.  Additionally, theater productions (plays) were the most successful in Great Britain, even considering the smaller number of 604 starter campaigns for plays.  The average campaign goal for musicals was 4,000 GBP, with the upper quartile approximating 6,000 GBP and the median at 2,000 GBP.  Considering that the average pledge approximated 1,700 GBP, a campaign goal of 4,000 GBP or less would be recommended.
+Theater productions, music, and film & video were shown to do well across all countries, yet theater productions also showed a higher number of failed campaigns.  Additionally, theater productions (plays) were the most successful in Great Britain, even considering the smaller number of 604 starter campaigns for plays.  The average campaign goal for musicals was 4,000 GBP, with the upper quartile approximating 6,000 GBP and the median at 2,000 GBP.  Considering that the average pledge approximated 1,700 GBP, a campaign goal of 4,000 GBP or less would be recommended. A box and whisker plot shows the differences in mean and median values between successful and failed musicals in Great Britain.
 
 ![Parent Category Outcomes--Module 1--Excel](https://user-images.githubusercontent.com/95387273/146690514-be59b1af-0ee3-4e6e-b5d2-f2214b3a36ba.png)
 
@@ -72,5 +78,5 @@ Descriptive statistics showed that mean goal and mean pledged for both successfu
 
 ![image](https://user-images.githubusercontent.com/95387273/146691595-45514b44-1dbe-4711-b288-77c55ce66b2d.png)
 
-
+### Additional Conclusions
 In summary, focus on theater productions, music, and film & video across all countries, and technology should also remain a consideration.  In Great Britain, theater (plays) campaigns do especially well with the target fundraising goal for musicals at 4,000 GBP or less.  Starting a campaign in May or June would produce the best outcomes.  A few outliers are skewing distributions for mean goal and mean pledged amounts for successful and failed campaigns in the US. Instead, focus on median values and note that failed campaigns have higher fundraising goals (median = $5,000.00) than successful ones (median = $3,000).
